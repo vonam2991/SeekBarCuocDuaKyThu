@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if (mseekBar2.getProgress() >= 100) {
                     this.cancel();
-                    setDisableCheckBox();
+                    setEnableCheckBox();
                     mbtnPlay.setVisibility(View.VISIBLE);
                     if (mcb2.isChecked()) {
                         msoDiem += 10;
